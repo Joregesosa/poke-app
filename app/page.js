@@ -25,7 +25,7 @@ export default function Home() {
 
           {
             (!pokeInfo.length > 0) &&
-            <Image src={'/poke.svg'} width={'280'} height={'280'} alt='Poke' className=' animate-spin absolute top-0 bottom-0 right-0 left-0 m-autogit '/>
+            <Image src={'/poke.svg'} width={'280'} height={'280'} alt='Poke' className=' animate-spin absolute top-0 bottom-0 right-0 left-0 m-auto '/>
 
           }
 
