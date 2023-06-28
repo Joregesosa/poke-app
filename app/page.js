@@ -21,11 +21,11 @@ export default function Home() {
         </nav>
       </header >
       <main className=' w-screen flex flex-col min-h-[calc(100vh-80px)]  bg-gray-100 '>
-        <ul className='flex flex-wrap md:justify-start gap-6 justify-center items-center p-9 max-w-[1320px] mx-auto'>
+        <ul className='flex flex-wrap md:justify-start gap-6 justify-center items-center p-9 max-w-[1320px] mx-auto '>
 
           {
             (!pokeInfo.length > 0) &&
-            <Image src={'/poke.svg'} width={'280'} height={'280'} alt='Poke' className=' animate-spin'/>
+            <Image src={'/poke.svg'} width={'280'} height={'280'} alt='Poke' className=' animate-spin absolute top-0 bottom-0 right-0 left-0 m-auto shadow-lg rounded-fullgit '/>
 
           }
 
